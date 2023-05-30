@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    width: 100%;
+    /* Adjust the width value as needed */
+    height: 100%;
+    /* Adjust the height value as needed */
+
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.logo img {
+    height: 70px;
+    border: 4px solid burlywood;
+    border-radius: 50%;
+    box-shadow: 1px 1px;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.header ul {
+    margin-right: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: solid black;
+}
+
+.header ul li:hover {
+    transform: scale(1.05);
+}
+
+.header ul li a {
+    color: black;
+}
+
+.header ul li a:hover {
+    font-size: 30px;
+    color: skyblue;
+    transform: scale(1.05);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: aqua;
+    background-image: linear-gradient(60deg, rgba(57, 60, 90, 0.85), rgba(180, 180, 120, 0.5)), url(https://wallpaperforu.com/wp-content/uploads/2020/06/paste-wallpaper-2006171415338-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.center-div img {
+    border: 15px solid burlywood;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+    margin: 20px;
+}
+
+.center-div {
+    margin: 128px 72px 72px;
+    border: 3px solid skyblue;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    box-shadow: 2px 2px 20px 2px;
+    background: rgba(57, 60, 90, 0.7);
+
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 700px;
+}
+
+.text-area span {
+    padding: 10px;
+    color: rgb(73, 0, 128);
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 68px;
+    font-weight: 700;
+}
+
+.text-area p {
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+
+.text-area button {
+    text-shadow: 2px;
+    font-weight: 900;
+    padding: 4px 24px;
+    border-radius: 4px;
+    background-color: rgb(230, 250, 250);
+    align-self: center;
+}
+
+/* team section */
+.team-section h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 2px;
+}
+
+.team-section {
+    background-color: #deb887;
+    padding: 0px 24px 96px 24px;
+}
+
+.card-section {
+    display: flex;
+    margin: 50px;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card-section .card img {
+    border: 12px solid #e6fafa;
+    width: 300px;
+    height: 300px;
+    border-radius: 32px;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card-section h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 1px;
+    margin-bottom: 10px;
+}
+
+.card-section p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px;
+    max-width: 300px;
+}
+
+.portfolio-section {
+    background-color: #deb887;
+    padding: 0px 24px 96px 24px;
+    background-image: linear-gradient(60deg, rgba(57, 60, 90, 0.85), rgba(180, 180, 120, 0.5)), url(https://images.pexels.com/photos/1054201/pexels-photo-1054201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio-section h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 2px;
+}
+
+.portfolio-section h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 1px;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.about-section {
+    text-align: center;
+    text-shadow: 2px;
+    background-color: skyblue;
+    background-image: linear-gradient(60deg, rgba(159, 217, 243, 0.85), rgba(250, 250, 167, 0.5)), url(https://images.pexels.com/photos/776635/pexels-photo-776635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-section h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 2px;
+}
+
+.about-section p {
+    padding: 50px;
+    font-size: 30px;
+    line-height: 150%;
+    font-style: italic;
+}
+
+.about-section h3 {
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 30px; */
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+/* contact-section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(60deg, rgba(57, 60, 90, 0.85), rgba(180, 180, 120, 0.5)), url(http://www.othercatt.com/images/building-background.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-section h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px;
+}
+
+.contact-section ul img {
+    height: 20px;
+}
+
+.contact-section ul li {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.contact-section ul a {
+    color: white;
+    text-shadow: #deb887;
+}
+
+/* Email section */
+.email-section {
+    display: flex;
+    background-color: #deb887;
+    justify-content: center;
+}
+
+.email-section .text-area {
+    border: 12px solid skyblue;
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px black;
+    background-color: #a0522d;
+    margin: 128px 48px;
+    padding: 32px 48px;
+    max-width: 1100px;
+    /* text-align: center; */
+}
+
+.email-section .text-area h2 {
+    color: skyblue;
+    font-style: italic;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 2px;
+}
+
+.email-section .text-area h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 2px;
+}
+
+.email-btn {
+    flex-shrink: 0;
+    height: 36px;
+    width: 128px;
+    padding: 4px 24px;
+    margin: 24px auto;
+    background-color: rgb(230, 250, 250);
+    border-radius: 4px;
+    border: 3px solid lightblue;
+    box-shadow: 2px 2px 3px black;
+    font-weight: 400;
+}
+
+.email-btn a {
+    color: black;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* footer */
+footer {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+    color: black;
+    background-color: rgb(230, 250, 250);
+
+}
+
+footer p {
+    font-size: larger;
+}
